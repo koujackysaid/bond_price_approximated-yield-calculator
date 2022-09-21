@@ -50,6 +50,6 @@ def bond_price_yield_cal(principal,coupon_rate,annual_interest,period,market_pri
     print("The YTM for this bond is: " + str(ytm * 100) + "%")
 
 bond_price_yield_cal(100,.04915,.0245,15,100) #if sell at face value, yield = coupon rate
-bond_price_yield_cal(100,.04915,.0245,15,79.943) #higher, yild, since the company has risk concern, market price goes low, selling at discount
+bond_price_yield_cal(100,.04915,.0245,15,79.943) #higher yield, since the company has risk concern, market price goes low, selling at discount
 bond_price_yield_cal(100,.04915,.0045,15,100) #if interests rate went down due to monetary policy, the bonds with yield of 4.915% becomes more worthy
 bond_price_yield_cal(100,.04915,.0545,15,100) #if interests rate went up due to monetary policy, the bonds with yield of 4.915% becomes less worthy
